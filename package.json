@@ -1,0 +1,28 @@
+{
+  "name": "github-actions-exercise-04",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/61160234/github-actions-exercise-04.git"
+  },
+  "bugs": {
+    "url": "https://github.com/61160234/github-actions-exercise-04/issues"
+  },
+  "homepage": "https://github.com/61160234/github-actions-exercise-04#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^9.1.2",
+    "nodemon": "^2.0.13",
+    "supertest": "^6.1.6"
+  }
+}
